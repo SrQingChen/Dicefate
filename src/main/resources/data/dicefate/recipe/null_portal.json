@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "OSO",
+  "ENE",
+  "OPO"
+ ],
+ "key": {
+  "O": "minecraft:obsidian",
+  "S": "dicefate:starshard",
+  "E": "minecraft:ender_pearl",
+  "N": "minecraft:nether_star",
+  "P": "minecraft:purpur_block"
+ },
+ "result": {
+  "id": "dicefate:null_portal",
+  "count": 1
+ }
+}

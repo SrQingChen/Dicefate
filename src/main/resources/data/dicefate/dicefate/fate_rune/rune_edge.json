@@ -1,0 +1,9 @@
+{
+  "id": "dicefate:rune_edge",
+  "scope": "die",
+  "effect": "poise_plus",
+  "value": 1,
+  "consumed": false,
+  "cost_sand": 30,
+  "offering": "dicefate:offering_bone"
+}

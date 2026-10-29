@@ -1,0 +1,20 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:die_fategold_d20"
+  },
+  "title": {
+   "translate": "advancement.dicefate.no_hit_boss.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.no_hit_boss.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:break_boss",
+ "criteria": {
+  "granted": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

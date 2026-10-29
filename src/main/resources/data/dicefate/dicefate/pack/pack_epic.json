@@ -1,0 +1,23 @@
+{
+  "id": "dicefate:pack_epic",
+  "duration": 3,
+  "mode": "replace",
+  "co_roll": 0,
+  "slots": [
+    {
+      "face": 10
+    },
+    {
+      "face": 10
+    },
+    {
+      "face": 12
+    },
+    {
+      "face": 12
+    },
+    {
+      "face": 12
+    }
+  ]
+}

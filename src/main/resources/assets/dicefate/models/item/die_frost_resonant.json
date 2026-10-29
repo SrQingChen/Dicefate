@@ -1,0 +1,5 @@
+{
+ "loader": "dicefate:mesh",
+ "mesh": "dicefate:die_d12",
+ "texture": "dicefate:item/die_shape_d12_frost"
+}

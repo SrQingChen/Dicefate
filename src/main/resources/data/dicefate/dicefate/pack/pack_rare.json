@@ -1,0 +1,20 @@
+{
+  "id": "dicefate:pack_rare",
+  "duration": 3,
+  "mode": "replace",
+  "co_roll": 0,
+  "slots": [
+    {
+      "face": 8
+    },
+    {
+      "face": 8
+    },
+    {
+      "face": 10
+    },
+    {
+      "face": 10
+    }
+  ]
+}

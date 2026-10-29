@@ -1,0 +1,20 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:element_resonator"
+  },
+  "title": {
+   "translate": "advancement.dicefate.four_elements.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.four_elements.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:steam",
+ "criteria": {
+  "granted": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

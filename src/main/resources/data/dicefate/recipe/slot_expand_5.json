@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "NSN",
+  "DCD",
+  "BTB"
+ ],
+ "key": {
+  "N": "minecraft:nether_star",
+  "S": "dicefate:slot_shard",
+  "C": "dicefate:fate_core",
+  "D": "minecraft:dragon_breath",
+  "B": "dicefate:fate_fragment",
+  "T": "minecraft:heart_of_the_sea"
+ },
+ "result": {
+  "id": "dicefate:slot_expand_5",
+  "count": 1
+ }
+}

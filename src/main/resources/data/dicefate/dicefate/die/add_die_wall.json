@@ -1,0 +1,7 @@
+{
+  "id": "dicefate:add_die_wall",
+  "face": 6,
+  "kind": "add",
+  "material": "elemental",
+  "rarity": "rare"
+}

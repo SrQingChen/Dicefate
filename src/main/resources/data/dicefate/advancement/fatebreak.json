@@ -1,0 +1,20 @@
+{
+ "display": {
+  "icon": {
+   "id": "minecraft:nether_star"
+  },
+  "title": {
+   "translate": "advancement.dicefate.fatebreak.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.fatebreak.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:break_elite",
+ "criteria": {
+  "granted": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:sovereign_seal"
+  },
+  "title": {
+   "translate": "advancement.dicefate.four_seals.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.four_seals.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:casino",
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": "dicefate:sovereign_seal",
+      "count": 4
+     }
+    ]
+   }
+  }
+ }
+}

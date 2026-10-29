@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "NIN",
+  "ISI",
+  "NNN"
+ ],
+ "key": {
+  "N": "minecraft:stone_bricks",
+  "I": "dicefate:incense",
+  "S": "dicefate:fate_sand"
+ },
+ "result": {
+  "id": "dicefate:offering_shrine",
+  "count": 1
+ }
+}

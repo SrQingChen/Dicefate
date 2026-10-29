@@ -1,0 +1,27 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:slot_expand_1"
+  },
+  "title": {
+   "translate": "advancement.dicefate.expand_1.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.expand_1.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:first_craft",
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": "dicefate:slot_expand_1"
+     }
+    ]
+   }
+  }
+ }
+}

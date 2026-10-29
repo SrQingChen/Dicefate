@@ -1,0 +1,20 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:die_bone_d4"
+  },
+  "title": {
+   "translate": "advancement.dicefate.first_miss.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.first_miss.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:first_contest",
+ "criteria": {
+  "granted": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

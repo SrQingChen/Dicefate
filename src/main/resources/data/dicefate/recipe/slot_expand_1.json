@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "ASA",
+  "SCS",
+  "AGA"
+ ],
+ "key": {
+  "A": "minecraft:amethyst_shard",
+  "S": "dicefate:slot_shard",
+  "C": "dicefate:fate_core",
+  "G": "minecraft:gold_ingot"
+ },
+ "result": {
+  "id": "dicefate:slot_expand_1",
+  "count": 1
+ }
+}

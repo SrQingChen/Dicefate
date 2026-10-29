@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "WWW",
+  "S S",
+  "W W"
+ ],
+ "key": {
+  "W": "minecraft:oak_slab",
+  "S": "dicefate:fate_sand"
+ },
+ "result": {
+  "id": "dicefate:merchant_stall",
+  "count": 1
+ }
+}

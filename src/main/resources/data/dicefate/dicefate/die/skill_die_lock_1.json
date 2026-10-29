@@ -1,0 +1,9 @@
+{
+  "id": "dicefate:skill_die_lock_1",
+  "face": 6,
+  "kind": "skill",
+  "material": "skill",
+  "rarity": "uncommon",
+  "skill": "dicefate:skill/lock",
+  "skill_tier": 0
+}

@@ -1,0 +1,20 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:fate_core"
+  },
+  "title": {
+   "translate": "advancement.dicefate.first_poise.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.first_poise.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:first_win",
+ "criteria": {
+  "granted": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

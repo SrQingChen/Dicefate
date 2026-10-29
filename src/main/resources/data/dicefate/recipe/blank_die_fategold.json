@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "NAD",
+  "ACA",
+  "DSN"
+ ],
+ "key": {
+  "N": "minecraft:netherite_scrap",
+  "A": "minecraft:amethyst_shard",
+  "D": "dicefate:fate_sand",
+  "C": "dicefate:fate_core",
+  "S": "minecraft:nether_star"
+ },
+ "result": {
+  "id": "dicefate:blank_die_fategold",
+  "count": 1
+ }
+}

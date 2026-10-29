@@ -1,0 +1,19 @@
+{
+ "layers": {
+  "humanoid": [
+   {
+    "texture": "dicefate:gambler"
+   }
+  ],
+  "humanoid_leggings": [
+   {
+    "texture": "dicefate:gambler"
+   }
+  ],
+  "humanoid_baby": [
+   {
+    "texture": "dicefate:gambler"
+   }
+  ]
+ }
+}

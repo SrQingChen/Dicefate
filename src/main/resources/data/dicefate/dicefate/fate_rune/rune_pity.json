@@ -1,0 +1,9 @@
+{
+  "id": "dicefate:rune_pity",
+  "scope": "player",
+  "effect": "pity_step",
+  "value": 0.01,
+  "consumed": false,
+  "cost_sand": 80,
+  "offering": "dicefate:offering_core"
+}

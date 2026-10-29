@@ -1,0 +1,9 @@
+{
+  "wants": {
+    "id": "dicefate:fate_sand",
+    "count": 30
+  },
+  "gives": "minecraft:amethyst_shard",
+  "max_uses": 4,
+  "xp": 1
+}

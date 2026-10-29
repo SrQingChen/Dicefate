@@ -1,0 +1,12 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "dicefate:starshard",
+  "dicefate:fate_core"
+ ],
+ "result": {
+  "id": "dicefate:perfect_oil",
+  "count": 1
+ }
+}

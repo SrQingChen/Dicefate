@@ -1,0 +1,20 @@
+{
+  "id": "dicefate:pack_ember",
+  "duration": 4,
+  "mode": "replace",
+  "co_roll": 0,
+  "slots": [
+    {
+      "face": 8,
+      "element": "ember"
+    },
+    {
+      "face": 8,
+      "element": "ember"
+    },
+    {
+      "face": 10,
+      "element": "ember"
+    }
+  ]
+}

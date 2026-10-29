@@ -1,0 +1,9 @@
+{
+  "id": "dicefate:skill_die_pursuit_1",
+  "face": 6,
+  "kind": "skill",
+  "material": "skill",
+  "rarity": "uncommon",
+  "skill": "dicefate:skill/pursuit",
+  "skill_tier": 0
+}

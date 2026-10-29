@@ -1,0 +1,34 @@
+{
+  "settle_impact": {
+    "subtitle": "subtitles.dicefate.settle_impact",
+    "sounds": [{"name": "dicefate:settle_impact", "stream": false}]
+  },
+  "settle_impact_great": {
+    "subtitle": "subtitles.dicefate.settle_impact",
+    "sounds": [{"name": "dicefate:settle_impact_great", "stream": false}]
+  },
+  "contest_miss": {
+    "subtitle": "subtitles.dicefate.contest_miss",
+    "sounds": [{"name": "dicefate:contest_miss", "stream": false}]
+  },
+  "poise_break": {
+    "subtitle": "subtitles.dicefate.poise_break",
+    "sounds": [{"name": "dicefate:poise_break", "stream": false}]
+  },
+  "fatebreak": {
+    "subtitle": "subtitles.dicefate.fatebreak",
+    "sounds": [{"name": "dicefate:fatebreak", "stream": false}]
+  },
+  "cashout": {
+    "subtitle": "subtitles.dicefate.cashout",
+    "sounds": [{"name": "dicefate:cashout", "stream": false}]
+  },
+  "pattern": {
+    "subtitle": "subtitles.dicefate.pattern",
+    "sounds": [{"name": "dicefate:pattern", "stream": false}]
+  },
+  "dice_roll": {
+    "subtitle": "subtitles.dicefate.dice_roll",
+    "sounds": [{"name": "dicefate:dice_roll", "stream": false}]
+  }
+}

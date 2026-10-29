@@ -1,0 +1,9 @@
+{
+  "id": "dicefate:rune_sacrifice",
+  "scope": "player",
+  "effect": "break_frenzy",
+  "value": 0.05,
+  "consumed": false,
+  "cost_sand": 60,
+  "offering": "dicefate:offering_core"
+}

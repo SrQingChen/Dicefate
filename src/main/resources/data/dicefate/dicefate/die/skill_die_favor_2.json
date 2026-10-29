@@ -1,0 +1,9 @@
+{
+  "id": "dicefate:skill_die_favor_2",
+  "face": 12,
+  "kind": "skill",
+  "material": "skill",
+  "rarity": "epic",
+  "skill": "dicefate:skill/favor",
+  "skill_tier": 1
+}

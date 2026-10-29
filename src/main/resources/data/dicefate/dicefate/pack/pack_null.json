@@ -1,0 +1,52 @@
+{
+ "id": "dicefate:pack_null",
+ "duration": 2,
+ "mode": "replace",
+ "co_roll": 0,
+ "slots": [
+  {
+   "face": 6,
+   "face_values": [
+    0,
+    0,
+    0,
+    6,
+    6,
+    6
+   ]
+  },
+  {
+   "face": 6,
+   "face_values": [
+    0,
+    0,
+    0,
+    6,
+    6,
+    6
+   ]
+  },
+  {
+   "face": 6,
+   "face_values": [
+    0,
+    0,
+    0,
+    6,
+    6,
+    6
+   ]
+  },
+  {
+   "face": 6,
+   "face_values": [
+    0,
+    0,
+    0,
+    6,
+    6,
+    6
+   ]
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "ABA",
+  "BDB",
+  "ABA"
+ ],
+ "key": {
+  "A": "minecraft:bone",
+  "B": "minecraft:copper_ingot",
+  "D": "dicefate:fate_sand"
+ },
+ "result": {
+  "id": "dicefate:face_plate_d6",
+  "count": 1
+ }
+}

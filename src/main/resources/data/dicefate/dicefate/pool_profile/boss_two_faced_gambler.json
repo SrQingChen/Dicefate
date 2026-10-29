@@ -1,0 +1,24 @@
+{
+ "id": "dicefate:boss_two_faced_gambler",
+ "entity": "dicefate:two_faced_gambler",
+ "tier": 2,
+ "rank": "boss",
+ "slots": [
+  {
+   "face": 8
+  },
+  {
+   "face": 8
+  },
+  {
+   "face": 10
+  },
+  {
+   "face": 10
+  }
+ ],
+ "stance": "tricky",
+ "skill_dice": [
+  "dicefate:skill/reverse"
+ ]
+}

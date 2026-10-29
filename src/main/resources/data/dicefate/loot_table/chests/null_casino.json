@@ -1,0 +1,138 @@
+{
+ "type": "minecraft:chest",
+ "pools": [
+  {
+   "rolls": 1,
+   "bonus_rolls": 0,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "dicefate:fate_sand",
+     "weight": 1,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 150,
+        "max": 300
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "bonus_rolls": 0,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "dicefate:starshard",
+     "weight": 1,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 6
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "bonus_rolls": 0,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "dicefate:pack_null",
+     "weight": 1,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+       }
+      }
+     ],
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "bonus_rolls": 0,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "dicefate:face_plate_d24",
+     "weight": 1,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+       }
+      }
+     ],
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.15
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "bonus_rolls": 0,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "dicefate:unidentified_die",
+     "weight": 1,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+       }
+      }
+     ],
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "bonus_rolls": 0,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "dicefate:sovereign_seal"
+    }
+   ]
+  }
+ ]
+}

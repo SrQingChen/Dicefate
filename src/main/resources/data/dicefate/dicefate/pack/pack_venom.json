@@ -1,0 +1,20 @@
+{
+  "id": "dicefate:pack_venom",
+  "duration": 4,
+  "mode": "replace",
+  "co_roll": 0,
+  "slots": [
+    {
+      "face": 8,
+      "element": "venom"
+    },
+    {
+      "face": 8,
+      "element": "venom"
+    },
+    {
+      "face": 10,
+      "element": "venom"
+    }
+  ]
+}

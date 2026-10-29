@@ -1,0 +1,9 @@
+{
+  "id": "dicefate:rune_guard",
+  "scope": "player",
+  "effect": "damage_reduce",
+  "value": 0.05,
+  "consumed": false,
+  "cost_sand": 50,
+  "offering": "dicefate:offering_star"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "dicefate:rune_steady",
+  "scope": "die",
+  "effect": "min_as_two",
+  "value": 2,
+  "consumed": false,
+  "cost_sand": 20,
+  "offering": "dicefate:offering_bone"
+}

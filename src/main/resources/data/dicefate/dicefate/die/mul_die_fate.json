@@ -1,0 +1,7 @@
+{
+  "id": "dicefate:mul_die_fate",
+  "face": 12,
+  "kind": "mul",
+  "material": "elemental",
+  "rarity": "legendary"
+}

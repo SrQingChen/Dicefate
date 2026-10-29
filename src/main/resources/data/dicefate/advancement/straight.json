@@ -1,0 +1,20 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:die_bone_d6"
+  },
+  "title": {
+   "translate": "advancement.dicefate.straight.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.straight.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:expand_1",
+ "criteria": {
+  "granted": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

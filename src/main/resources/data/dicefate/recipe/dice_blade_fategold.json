@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "C",
+  "C",
+  "F"
+ ],
+ "key": {
+  "C": "dicefate:fate_core",
+  "F": "dicefate:fate_fragment"
+ },
+ "result": {
+  "id": "dicefate:dice_blade_fategold",
+  "count": 1
+ }
+}

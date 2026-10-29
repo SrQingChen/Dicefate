@@ -1,0 +1,29 @@
+{
+ "id": "dicefate:boss_frost_silence_queen",
+ "entity": "dicefate:frost_silence_queen",
+ "tier": 4,
+ "rank": "boss",
+ "slots": [
+  {
+   "face": 8,
+   "element": "frost"
+  },
+  {
+   "face": 10,
+   "element": "frost"
+  },
+  {
+   "face": 12,
+   "element": "frost"
+  },
+  {
+   "face": 12,
+   "element": "frost"
+  },
+  {
+   "face": 12,
+   "element": "frost"
+  }
+ ],
+ "stance": "guard"
+}

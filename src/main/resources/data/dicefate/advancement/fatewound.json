@@ -1,0 +1,20 @@
+{
+ "display": {
+  "icon": {
+   "id": "minecraft:amethyst_shard"
+  },
+  "title": {
+   "translate": "advancement.dicefate.fatewound.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.fatewound.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:fatebreak",
+ "criteria": {
+  "granted": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

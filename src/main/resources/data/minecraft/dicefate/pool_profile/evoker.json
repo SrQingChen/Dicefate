@@ -1,0 +1,43 @@
+{
+ "id": "minecraft:evoker",
+ "entity": "minecraft:evoker",
+ "tier": 2,
+ "rank": "elite",
+ "slots": [
+  {
+   "face": 8,
+   "element": "storm"
+  },
+  {
+   "face": 8,
+   "element": "storm"
+  }
+ ],
+ "stance": "guard",
+ "drops": [
+  {
+   "item": "fate_sand",
+   "min": 4,
+   "max": 8,
+   "chance": 1.0
+  },
+  {
+   "item": "fate_core",
+   "min": 1,
+   "max": 1,
+   "chance": 0.5
+  },
+  {
+   "item": "element_essence_storm",
+   "min": 1,
+   "max": 1,
+   "chance": 0.6
+  },
+  {
+   "item": "pack_fine",
+   "min": 1,
+   "max": 1,
+   "chance": 0.2
+  }
+ ]
+}

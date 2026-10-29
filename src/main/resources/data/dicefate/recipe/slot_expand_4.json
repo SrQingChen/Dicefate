@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "NSN",
+  "SCS",
+  "NDN"
+ ],
+ "key": {
+  "N": "minecraft:nether_star",
+  "S": "dicefate:slot_shard",
+  "C": "dicefate:fate_core",
+  "D": "minecraft:netherite_scrap"
+ },
+ "result": {
+  "id": "dicefate:slot_expand_4",
+  "count": 1
+ }
+}

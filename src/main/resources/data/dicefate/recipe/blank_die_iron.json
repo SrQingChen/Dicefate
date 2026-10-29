@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "IID",
+  "IDI",
+  "DRD"
+ ],
+ "key": {
+  "I": "minecraft:iron_ingot",
+  "D": "dicefate:fate_sand",
+  "R": "minecraft:redstone"
+ },
+ "result": {
+  "id": "dicefate:blank_die_iron",
+  "count": 1
+ }
+}

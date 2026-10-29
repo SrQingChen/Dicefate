@@ -1,0 +1,23 @@
+{
+  "id": "minecraft:pillager",
+  "entity": "minecraft:pillager",
+  "tier": 1,
+  "rank": "normal",
+  "slots": [
+    {
+      "face": 6
+    },
+    {
+      "face": 8
+    }
+  ],
+  "stance": "balanced",
+  "drops": [
+    {
+      "item": "fate_sand",
+      "min": 2,
+      "max": 4,
+      "chance": 1.0
+    }
+  ]
+}

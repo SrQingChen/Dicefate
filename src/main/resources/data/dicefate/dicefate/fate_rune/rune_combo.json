@@ -1,0 +1,9 @@
+{
+  "id": "dicefate:rune_combo",
+  "scope": "die",
+  "effect": "momentum_plus",
+  "value": 2,
+  "consumed": false,
+  "cost_sand": 30,
+  "offering": "dicefate:offering_bone"
+}

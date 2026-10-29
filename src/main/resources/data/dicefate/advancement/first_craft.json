@@ -1,0 +1,27 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:blank_die_bone"
+  },
+  "title": {
+   "translate": "advancement.dicefate.first_craft.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.first_craft.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:root",
+ "criteria": {
+  "has_blank": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": "dicefate:blank_die_bone"
+     }
+    ]
+   }
+  }
+ }
+}

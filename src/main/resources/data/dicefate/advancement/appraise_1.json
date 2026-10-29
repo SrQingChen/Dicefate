@@ -1,0 +1,27 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:unidentified_die"
+  },
+  "title": {
+   "translate": "advancement.dicefate.appraise_1.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.appraise_1.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:root",
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": "dicefate:unidentified_die"
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:rune_ink"
+  },
+  "title": {
+   "translate": "advancement.dicefate.rune.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.rune.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:first_craft",
+ "criteria": {
+  "granted": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:wheat",
+  "minecraft:sugar",
+  "dicefate:fate_sand"
+ ],
+ "result": {
+  "id": "dicefate:lucky_cookie",
+  "count": 2
+ }
+}

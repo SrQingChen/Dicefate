@@ -1,0 +1,20 @@
+{
+  "id": "dicefate:pack_two_faced",
+  "duration": 2,
+  "mode": "replace",
+  "co_roll": 0,
+  "slots": [
+    {
+      "face": 6
+    },
+    {
+      "face": 8
+    },
+    {
+      "face": 12
+    },
+    {
+      "face": 20
+    }
+  ]
+}

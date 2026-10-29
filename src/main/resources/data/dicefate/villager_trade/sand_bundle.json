@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 1
+  },
+  "gives": {
+    "id": "dicefate:fate_sand",
+    "count": 12
+  },
+  "max_uses": 8,
+  "xp": 1
+}

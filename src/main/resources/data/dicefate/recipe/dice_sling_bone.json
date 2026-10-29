@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "SL ",
+  " SW",
+  "  L"
+ ],
+ "key": {
+  "S": "minecraft:string",
+  "L": "minecraft:leather",
+  "W": "minecraft:bone"
+ },
+ "result": {
+  "id": "dicefate:dice_sling_bone",
+  "count": 1
+ }
+}

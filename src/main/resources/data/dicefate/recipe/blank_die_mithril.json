@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "AAD",
+  "GCG",
+  "DLD"
+ ],
+ "key": {
+  "A": "minecraft:amethyst_shard",
+  "D": "dicefate:fate_dust",
+  "G": "minecraft:gold_ingot",
+  "C": "dicefate:fate_core",
+  "L": "minecraft:lapis_lazuli"
+ },
+ "result": {
+  "id": "dicefate:blank_die_mithril",
+  "count": 1
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "dicefate:fate_core",
+  "dicefate:cracked_core"
+ ],
+ "result": {
+  "id": "dicefate:fate_lock_talisman",
+  "count": 1
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "CCC",
+  "CNC",
+  " C "
+ ],
+ "key": {
+  "C": "dicefate:fate_core",
+  "N": "minecraft:netherite_scrap"
+ },
+ "result": {
+  "id": "dicefate:fate_shield_fategold",
+  "count": 1
+ }
+}

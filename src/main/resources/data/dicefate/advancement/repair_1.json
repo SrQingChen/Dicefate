@@ -1,0 +1,20 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:repair_file"
+  },
+  "title": {
+   "translate": "advancement.dicefate.repair_1.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.repair_1.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:first_craft",
+ "criteria": {
+  "granted": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:sovereign_core"
+  },
+  "title": {
+   "translate": "advancement.dicefate.nullface.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.nullface.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:four_seals",
+ "criteria": {
+  "granted": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

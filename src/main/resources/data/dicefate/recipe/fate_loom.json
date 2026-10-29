@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "LSL",
+  "SIS",
+  "LSL"
+ ],
+ "key": {
+  "L": "minecraft:string",
+  "S": "dicefate:fate_sand",
+  "I": "minecraft:iron_ingot"
+ },
+ "result": {
+  "id": "dicefate:fate_loom",
+  "count": 1
+ }
+}

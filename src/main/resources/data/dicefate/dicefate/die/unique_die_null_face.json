@@ -1,0 +1,15 @@
+{
+  "id": "dicefate:unique_die_null_face",
+  "face": 6,
+  "kind": "unique",
+  "material": "unique",
+  "rarity": "legendary",
+  "face_values": [
+    0,
+    0,
+    0,
+    6,
+    6,
+    6
+  ]
+}

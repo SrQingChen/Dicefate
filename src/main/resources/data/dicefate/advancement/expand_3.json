@@ -1,0 +1,20 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:slot_expand_3"
+  },
+  "title": {
+   "translate": "advancement.dicefate.expand_3.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.expand_3.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:expand_1",
+ "criteria": {
+  "granted": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

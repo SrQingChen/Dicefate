@@ -1,0 +1,9 @@
+{
+  "id": "dicefate:rune_pierce",
+  "scope": "die",
+  "effect": "pierce_plus",
+  "value": 0.1,
+  "consumed": false,
+  "cost_sand": 40,
+  "offering": "dicefate:offering_star"
+}

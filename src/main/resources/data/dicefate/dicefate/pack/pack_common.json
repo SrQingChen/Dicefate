@@ -1,0 +1,14 @@
+{
+  "id": "dicefate:pack_common",
+  "duration": 3,
+  "mode": "replace",
+  "co_roll": 0,
+  "slots": [
+    {
+      "face": 6
+    },
+    {
+      "face": 6
+    }
+  ]
+}

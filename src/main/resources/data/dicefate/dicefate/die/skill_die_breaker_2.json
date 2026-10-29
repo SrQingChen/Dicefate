@@ -1,0 +1,9 @@
+{
+  "id": "dicefate:skill_die_breaker_2",
+  "face": 12,
+  "kind": "skill",
+  "material": "skill",
+  "rarity": "epic",
+  "skill": "dicefate:skill/breaker",
+  "skill_tier": 1
+}

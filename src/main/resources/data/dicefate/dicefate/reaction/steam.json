@@ -1,0 +1,11 @@
+{
+  "id": "dicefate:steam",
+  "elements": [
+    "ember",
+    "frost"
+  ],
+  "effect": "compress_margin",
+  "value": 0.5,
+  "bonus_damage": 0.1,
+  "cooldown": 160
+}

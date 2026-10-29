@@ -1,0 +1,20 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:null_portal"
+  },
+  "title": {
+   "translate": "advancement.dicefate.casino.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.casino.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:expand_6",
+ "criteria": {
+  "granted": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

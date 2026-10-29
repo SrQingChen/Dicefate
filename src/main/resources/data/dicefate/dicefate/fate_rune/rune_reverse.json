@@ -1,0 +1,9 @@
+{
+  "id": "dicefate:rune_reverse",
+  "scope": "player",
+  "effect": "null_to_loss",
+  "value": 0.15,
+  "consumed": true,
+  "cost_sand": 80,
+  "offering": "dicefate:offering_core"
+}

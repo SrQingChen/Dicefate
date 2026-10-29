@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "BBB",
+  "BSB",
+  " B "
+ ],
+ "key": {
+  "B": "minecraft:bone",
+  "S": "dicefate:fate_sand"
+ },
+ "result": {
+  "id": "dicefate:fate_shield_bone",
+  "count": 1
+ }
+}

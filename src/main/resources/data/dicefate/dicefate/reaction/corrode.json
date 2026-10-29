@@ -1,0 +1,11 @@
+{
+  "id": "dicefate:corrode",
+  "elements": [
+    "venom",
+    "storm"
+  ],
+  "effect": "corrode",
+  "value": 0.15,
+  "bonus_damage": 0.0,
+  "cooldown": 160
+}

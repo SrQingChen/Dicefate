@@ -1,0 +1,9 @@
+{
+  "id": "dicefate:skill_die_greed_3",
+  "face": 20,
+  "kind": "skill",
+  "material": "skill",
+  "rarity": "legendary",
+  "skill": "dicefate:skill/greed",
+  "skill_tier": 2
+}

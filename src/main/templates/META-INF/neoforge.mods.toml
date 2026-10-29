@@ -1,0 +1,51 @@
+# Dicefate mod metadata (骰掷命术)
+license="GPL-3.0"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+logoFile="logo.png"
+# Chinese displayName written directly here (UTF-8); gradle.properties stays ASCII.
+displayName="骰掷命术"
+authors="SrQingChen"
+description='''
+骰掷命术 Dicefate - a world-grade fate-dice system. Every living being resolves
+conflict through dice contests: read the board, build your dice pool, break poise,
+and out-roll fate itself. 命数潮汐之下，众生以骰局决胜负。
+'''
+
+# Dependencies - neoforge/minecraft required; curios/jade/jecharacters optional
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="curios"
+    type="optional"
+    versionRange="[15.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="jade"
+    type="optional"
+    versionRange="[26.1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="jecharacters"
+    type="optional"
+    versionRange="[4.6.4,)"
+    ordering="AFTER"
+    side="CLIENT"

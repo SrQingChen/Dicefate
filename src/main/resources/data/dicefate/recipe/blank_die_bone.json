@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "BBD",
+  "BDB",
+  "DLD"
+ ],
+ "key": {
+  "B": "minecraft:bone",
+  "D": "dicefate:fate_dust",
+  "L": "minecraft:string"
+ },
+ "result": {
+  "id": "dicefate:blank_die_bone",
+  "count": 1
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "dicefate:fate_sand",
+  "minecraft:bone_meal"
+ ],
+ "result": {
+  "id": "dicefate:fate_glue",
+  "count": 1
+ }
+}

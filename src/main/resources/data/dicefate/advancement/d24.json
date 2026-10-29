@@ -1,0 +1,27 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:face_plate_d24"
+  },
+  "title": {
+   "translate": "advancement.dicefate.d24.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.d24.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:nullface",
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": "dicefate:die_starlight_d24"
+     }
+    ]
+   }
+  }
+ }
+}

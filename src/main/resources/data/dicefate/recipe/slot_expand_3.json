@@ -1,0 +1,21 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "ASA",
+  "NCN",
+  "BFB"
+ ],
+ "key": {
+  "A": "minecraft:amethyst_shard",
+  "S": "dicefate:slot_shard",
+  "N": "minecraft:netherite_scrap",
+  "C": "dicefate:fate_core",
+  "B": "minecraft:blaze_rod",
+  "F": "dicefate:cracked_core"
+ },
+ "result": {
+  "id": "dicefate:slot_expand_3",
+  "count": 1
+ }
+}

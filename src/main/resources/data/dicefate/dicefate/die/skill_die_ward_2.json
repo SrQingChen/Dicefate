@@ -1,0 +1,9 @@
+{
+  "id": "dicefate:skill_die_ward_2",
+  "face": 12,
+  "kind": "skill",
+  "material": "skill",
+  "rarity": "epic",
+  "skill": "dicefate:skill/ward",
+  "skill_tier": 1
+}

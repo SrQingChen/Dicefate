@@ -1,0 +1,11 @@
+{
+  "id": "dicefate:detonate",
+  "elements": [
+    "ember",
+    "storm"
+  ],
+  "effect": "true_damage",
+  "value": 0.03,
+  "bonus_damage": 0.0,
+  "cooldown": 200
+}

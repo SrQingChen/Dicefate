@@ -1,0 +1,13 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:stick",
+  "dicefate:fate_dust",
+  "minecraft:wheat"
+ ],
+ "result": {
+  "id": "dicefate:incense",
+  "count": 2
+ }
+}

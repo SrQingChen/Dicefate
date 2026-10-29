@@ -1,0 +1,14 @@
+{
+ "structures": [
+  {
+   "structure": "dicefate:null_casino_arena",
+   "weight": 1
+  }
+ ],
+ "placement": {
+  "type": "minecraft:random_spread",
+  "spacing": 20,
+  "separation": 8,
+  "salt": 11006
+ }
+}

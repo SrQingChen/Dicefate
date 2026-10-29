@@ -1,0 +1,12 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "minecraft:paper",
+  "dicefate:fate_dust"
+ ],
+ "result": {
+  "id": "dicefate:appraisal_scroll",
+  "count": 1
+ }
+}

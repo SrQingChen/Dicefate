@@ -1,0 +1,23 @@
+{
+  "id": "dicefate:pack_straight",
+  "duration": 2,
+  "mode": "replace",
+  "co_roll": 0,
+  "slots": [
+    {
+      "face": 4
+    },
+    {
+      "face": 6
+    },
+    {
+      "face": 8
+    },
+    {
+      "face": 10
+    },
+    {
+      "face": 12
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "trades": [
+    "dicefate:pack_common",
+    "dicefate:pack_fine",
+    "dicefate:slot_shard",
+    "dicefate:fate_core",
+    "dicefate:appraisal_scroll",
+    "dicefate:repair_file",
+    "dicefate:unidentified_die",
+    "dicefate:amethyst",
+    "dicefate:mirror_shard",
+    "dicefate:sand_bundle"
+  ],
+  "amount": 6,
+  "allow_duplicates": false
+}

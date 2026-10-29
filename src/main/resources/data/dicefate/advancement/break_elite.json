@@ -1,0 +1,20 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:cracked_core"
+  },
+  "title": {
+   "translate": "advancement.dicefate.break_elite.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.break_elite.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:first_poise",
+ "criteria": {
+  "granted": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

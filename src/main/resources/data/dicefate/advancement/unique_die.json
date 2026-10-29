@@ -1,0 +1,20 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:unique_die_cracked_face"
+  },
+  "title": {
+   "translate": "advancement.dicefate.unique_die.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.unique_die.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:blind_box",
+ "criteria": {
+  "granted": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

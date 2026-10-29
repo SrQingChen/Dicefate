@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "ABA",
+  "BDB",
+  "ABA"
+ ],
+ "key": {
+  "A": "minecraft:netherite_scrap",
+  "B": "minecraft:amethyst_shard",
+  "D": "dicefate:fate_sand"
+ },
+ "result": {
+  "id": "dicefate:face_plate_d20",
+  "count": 1
+ }
+}

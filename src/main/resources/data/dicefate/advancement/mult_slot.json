@@ -1,0 +1,27 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:sigil_multiplication"
+  },
+  "title": {
+   "translate": "advancement.dicefate.mult_slot.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.mult_slot.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:expand_3",
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": "dicefate:sigil_multiplication"
+     }
+    ]
+   }
+  }
+ }
+}

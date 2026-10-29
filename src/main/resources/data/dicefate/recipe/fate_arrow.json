@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "A",
+  "S",
+  "F"
+ ],
+ "key": {
+  "A": "minecraft:arrow",
+  "S": "dicefate:fate_sand",
+  "F": "minecraft:flint"
+ },
+ "result": {
+  "id": "dicefate:fate_arrow",
+  "count": 4
+ }
+}

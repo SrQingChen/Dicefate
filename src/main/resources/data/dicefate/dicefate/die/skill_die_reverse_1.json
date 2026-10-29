@@ -1,0 +1,9 @@
+{
+  "id": "dicefate:skill_die_reverse_1",
+  "face": 6,
+  "kind": "skill",
+  "material": "skill",
+  "rarity": "uncommon",
+  "skill": "dicefate:skill/reverse",
+  "skill_tier": 0
+}

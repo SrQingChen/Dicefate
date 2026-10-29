@@ -1,0 +1,19 @@
+{
+ "layers": {
+  "humanoid": [
+   {
+    "texture": "dicefate:dicecaster"
+   }
+  ],
+  "humanoid_leggings": [
+   {
+    "texture": "dicefate:dicecaster"
+   }
+  ],
+  "humanoid_baby": [
+   {
+    "texture": "dicefate:dicecaster"
+   }
+  ]
+ }
+}

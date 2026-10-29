@@ -1,0 +1,27 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:merchant_token"
+  },
+  "title": {
+   "translate": "advancement.dicefate.black_market.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.black_market.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:appraise_1",
+ "criteria": {
+  "has": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": "dicefate:merchant_token"
+     }
+    ]
+   }
+  }
+ }
+}

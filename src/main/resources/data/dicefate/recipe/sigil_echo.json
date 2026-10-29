@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "SCS",
+  "CFC",
+  "SCS"
+ ],
+ "key": {
+  "S": "dicefate:fate_sand",
+  "C": "dicefate:fate_core",
+  "F": "dicefate:face_plate_d6"
+ },
+ "result": {
+  "id": "dicefate:sigil_echo",
+  "count": 1
+ }
+}

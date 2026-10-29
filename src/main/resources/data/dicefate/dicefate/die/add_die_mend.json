@@ -1,0 +1,7 @@
+{
+  "id": "dicefate:add_die_mend",
+  "face": 8,
+  "kind": "add",
+  "material": "elemental",
+  "rarity": "epic"
+}

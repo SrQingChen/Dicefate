@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "OAO",
+  "ASA",
+  "OCO"
+ ],
+ "key": {
+  "O": "minecraft:obsidian",
+  "A": "minecraft:amethyst_shard",
+  "S": "dicefate:fate_sand",
+  "C": "dicefate:fate_core"
+ },
+ "result": {
+  "id": "dicefate:fate_altar",
+  "count": 1
+ }
+}

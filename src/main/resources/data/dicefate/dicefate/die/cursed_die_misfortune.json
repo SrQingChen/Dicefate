@@ -1,0 +1,15 @@
+{
+  "id": "dicefate:cursed_die_misfortune",
+  "face": 8,
+  "kind": "cursed",
+  "material": "cursed",
+  "rarity": "epic",
+  "face_values": [
+    -1,
+    2,
+    3,
+    4,
+    5,
+    8
+  ]
+}

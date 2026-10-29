@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+  <defs>
+    <linearGradient id="bbg" x1="0" y1="0" x2="1" y2="0.35">
+      <stop offset="0%" stop-color="#15201b"/>
+      <stop offset="60%" stop-color="#0d1410"/>
+      <stop offset="100%" stop-color="#090e0b"/>
+    </linearGradient>
+    <radialGradient id="bglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2ea88f" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#2ea88f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bgold" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e9cd7f" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#e9cd7f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7f1de"/>
+      <stop offset="100%" stop-color="#d9d2b8"/>
+    </linearGradient>
+    <linearGradient id="enGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#eed898"/>
+      <stop offset="50%" stop-color="#d3ac57"/>
+      <stop offset="100%" stop-color="#3fc3a6"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e9cd7f" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#e9cd7f" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- badge gradients (duplicate of logo.svg ids, scoped to this file) -->
+    <radialGradient id="bg" cx="50%" cy="42%" r="78%">
+      <stop offset="0%" stop-color="#1e2c26"/>
+      <stop offset="55%" stop-color="#121b17"/>
+      <stop offset="100%" stop-color="#090e0c"/>
+    </radialGradient>
+    <linearGradient id="frameGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ecd28a"/>
+      <stop offset="55%" stop-color="#b98f3e"/>
+      <stop offset="100%" stop-color="#2ea88f"/>
+    </linearGradient>
+    <linearGradient id="qtop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e9ca7b"/>
+      <stop offset="100%" stop-color="#c69c47"/>
+    </linearGradient>
+    <linearGradient id="qleft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4a74a"/>
+      <stop offset="100%" stop-color="#a67a2e"/>
+    </linearGradient>
+    <linearGradient id="qbottom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a87c2f"/>
+      <stop offset="100%" stop-color="#785620"/>
+    </linearGradient>
+    <linearGradient id="cface" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#265145"/>
+      <stop offset="100%" stop-color="#0d211b"/>
+    </linearGradient>
+    <linearGradient id="glyphGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf0c0"/>
+      <stop offset="100%" stop-color="#d5ae57"/>
+    </linearGradient>
+    <radialGradient id="underglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2ea88f" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#2ea88f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="spec" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="thread" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2ea88f" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#3fc3a6" stop-opacity="0.85"/>
+      <stop offset="70%" stop-color="#e9cd7f" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#e9cd7f" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="hexClip">
+      <polygon points="256,104 401.5,188 401.5,356 256,440 110.5,356 110.5,188"/>
+    </clipPath>
+    <clipPath id="hexClipB">
+      <polygon points="-184,14 -38.5,98 -38.5,266 -184,350 -329.5,266 -329.5,98"/>
+    </clipPath>
+  </defs>
+
+  <!-- background -->
+  <rect width="1280" height="320" fill="url(#bbg)"/>
+  <ellipse cx="300" cy="180" rx="420" ry="260" fill="url(#bglow)"/>
+  <ellipse cx="1150" cy="40" rx="380" ry="200" fill="url(#bgold)"/>
+
+  <!-- watermark d20, right side -->
+  <g transform="translate(1160,190) rotate(-12) scale(1.35) translate(-256,-272)" opacity="0.07"
+     fill="none" stroke="#3fc3a6" stroke-width="2.5">
+    <polygon points="256,104 401.5,188 401.5,356 256,440 110.5,356 110.5,188"/>
+    <polygon points="256,210 184,334 328,334"/>
+    <path d="M256,104 L256,210 M110.5,188 L256,210 M401.5,188 L328,334 M401.5,356 L328,334 M110.5,356 L184,334 M256,440 L184,334"/>
+  </g>
+
+  <!-- gold dust -->
+  <g fill="#e9cd7f">
+    <circle cx="620" cy="60" r="2.2" opacity="0.45"/>
+    <circle cx="700" cy="42" r="1.6" opacity="0.3"/>
+    <circle cx="880" cy="70" r="2.6" opacity="0.4"/>
+    <circle cx="990" cy="140" r="1.8" opacity="0.3"/>
+    <circle cx="1090" cy="96" r="2.2" opacity="0.35"/>
+    <circle cx="1210" cy="220" r="2.4" opacity="0.3"/>
+  </g>
+  <g fill="#3fc3a6">
+    <circle cx="760" cy="96" r="2" opacity="0.4"/>
+    <circle cx="930" cy="210" r="2" opacity="0.3"/>
+    <circle cx="1160" cy="150" r="1.6" opacity="0.35"/>
+  </g>
+
+  <!-- ===== badge (scaled copy of logo) ===== -->
+  <g transform="translate(40,46) scale(0.4453125)">
+    <rect width="512" height="512" fill="url(#bg)"/>
+    <g transform="translate(256,272) rotate(14) scale(2.35) translate(-256,-272)" opacity="0.055"
+       fill="none" stroke="#3fc3a6" stroke-width="2">
+      <polygon points="256,104 401.5,188 401.5,356 256,440 110.5,356 110.5,188"/>
+      <polygon points="256,210 184,334 328,334"/>
+      <path d="M256,104 L256,210 M110.5,188 L256,210 M401.5,188 L328,334 M401.5,356 L328,334 M110.5,356 L184,334 M256,440 L184,334"/>
+    </g>
+    <path d="M 48,308 C 150,212 362,212 464,308" fill="none" stroke="url(#thread)" stroke-width="2.5"/>
+    <circle cx="48" cy="308" r="3.5" fill="#3fc3a6" opacity="0.85"/>
+    <circle cx="464" cy="308" r="3.5" fill="#e9cd7f" opacity="0.85"/>
+    <ellipse cx="256" cy="452" rx="168" ry="30" fill="url(#underglow)"/>
+    <g stroke="#f7edd2" stroke-opacity="0.5" stroke-width="2" stroke-linejoin="round">
+      <polygon points="110.5,188 256,104 256,210" fill="#a5813a"/>
+      <polygon points="401.5,188 401.5,356 328,334" fill="#7a5a22"/>
+      <polygon points="256,440 110.5,356 184,334" fill="#5e4519"/>
+      <polygon points="256,210 256,104 401.5,188 328,334" fill="url(#qtop)"/>
+      <polygon points="184,334 256,210 110.5,188 110.5,356" fill="url(#qleft)"/>
+      <polygon points="328,334 184,334 256,440 401.5,356" fill="url(#qbottom)"/>
+      <polygon points="256,210 184,334 328,334" fill="url(#cface)"/>
+    </g>
+    <polygon points="256,210 184,334 328,334" fill="none" stroke="#0a1a15" stroke-opacity="0.65" stroke-width="3"/>
+    <polygon points="256,104 401.5,188 401.5,356 256,440 110.5,356 110.5,188"
+             fill="none" stroke="#ead191" stroke-width="3.5" stroke-opacity="0.95" stroke-linejoin="round"/>
+    <g clip-path="url(#hexClip)">
+      <rect x="100" y="100" width="312" height="120" fill="url(#sheen)"/>
+      <ellipse cx="205" cy="175" rx="122" ry="56" fill="url(#spec)" transform="rotate(-18 205 175)"/>
+    </g>
+    <text x="256" y="298" text-anchor="middle" dominant-baseline="central"
+          font-family="'Microsoft YaHei UI','Microsoft YaHei','Noto Sans SC',sans-serif"
+          font-size="104" font-weight="800" fill="url(#glyphGold)"
+          style="filter: drop-shadow(0 0 12px rgba(246,224,150,0.55)) drop-shadow(0 2px 2px rgba(0,0,0,0.45))">命</text>
+    <g fill="#fdf6df">
+      <path d="M 402,112 C 404.2,124 406,125.8 418,128 C 406,130.2 404.2,132 402,144 C 399.8,132 398,130.2 386,128 C 398,125.8 399.8,124 402,112 Z" opacity="0.95"/>
+      <path d="M 430,158 C 431.2,164.4 432.2,165.4 438.6,166.6 C 432.2,167.8 431.2,168.8 430,175.2 C 428.8,168.8 427.8,167.8 421.4,166.6 C 427.8,165.4 428.8,164.4 430,158 Z" opacity="0.7"/>
+    </g>
+    <g fill="#e9cd7f" opacity="0.35">
+      <circle cx="76" cy="76" r="5"/>
+      <circle cx="436" cy="76" r="5"/>
+      <circle cx="76" cy="436" r="5"/>
+      <circle cx="436" cy="436" r="5"/>
+    </g>
+    <rect x="26" y="26" width="460" height="460" rx="100" fill="none"
+          stroke="url(#frameGrad)" stroke-width="2.5" opacity="0.9"/>
+    <rect x="36" y="36" width="440" height="440" rx="92" fill="none"
+          stroke="#e9cd7f" stroke-width="1" opacity="0.22"/>
+    <path d="M 26,226 L 26,126 Q 26,26 126,26 L 386,26 Q 486,26 486,126 L 486,226 Z" fill="url(#glass)"/>
+    <path d="M 78,68 Q 256,18 434,68" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1.5"/>
+  </g>
+
+  <!-- ===== text ===== -->
+  <text x="336" y="88" font-family="'Segoe UI','Microsoft YaHei UI',sans-serif" font-size="15"
+        letter-spacing="5" fill="#3fc3a6" opacity="0.9">MINECRAFT 26.1 · NEOFORGE</text>
+
+  <text x="336" y="164" font-family="'Microsoft YaHei UI','Microsoft YaHei','Noto Sans SC',sans-serif"
+        font-size="72" font-weight="800" letter-spacing="6" fill="url(#titleGrad)"
+        style="filter: drop-shadow(0 3px 10px rgba(0,0,0,0.55))">骰掷命术</text>
+
+  <text x="339" y="212" font-family="'Segoe UI','Microsoft YaHei UI',sans-serif" font-size="27"
+        font-weight="600" letter-spacing="15" fill="url(#enGrad)">DICEFATE</text>
+
+  <rect x="339" y="232" width="360" height="2" fill="url(#rule)" opacity="0.8"/>
+
+  <text x="336" y="268" font-family="'Microsoft YaHei UI','Microsoft YaHei',sans-serif" font-size="21"
+        letter-spacing="2" fill="#b9c9c0">命数潮汐之下，众生以骰局决胜负</text>
+  <text x="336" y="298" font-family="'Segoe UI','Microsoft YaHei UI',sans-serif" font-size="16.5"
+        font-style="italic" fill="#7f9187">Every blow is a dice contest — read the board, break poise, out-roll fate itself.</text>
+</svg>

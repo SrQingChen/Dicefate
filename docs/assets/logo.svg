@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="78%">
+      <stop offset="0%" stop-color="#1e2c26"/>
+      <stop offset="55%" stop-color="#121b17"/>
+      <stop offset="100%" stop-color="#090e0c"/>
+    </radialGradient>
+    <linearGradient id="frameGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ecd28a"/>
+      <stop offset="55%" stop-color="#b98f3e"/>
+      <stop offset="100%" stop-color="#2ea88f"/>
+    </linearGradient>
+    <linearGradient id="qtop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e9ca7b"/>
+      <stop offset="100%" stop-color="#c69c47"/>
+    </linearGradient>
+    <linearGradient id="qleft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4a74a"/>
+      <stop offset="100%" stop-color="#a67a2e"/>
+    </linearGradient>
+    <linearGradient id="qbottom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a87c2f"/>
+      <stop offset="100%" stop-color="#785620"/>
+    </linearGradient>
+    <linearGradient id="cface" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#265145"/>
+      <stop offset="100%" stop-color="#0d211b"/>
+    </linearGradient>
+    <linearGradient id="glyphGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf0c0"/>
+      <stop offset="100%" stop-color="#d5ae57"/>
+    </linearGradient>
+    <radialGradient id="underglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2ea88f" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#2ea88f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="spec" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="thread" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2ea88f" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#3fc3a6" stop-opacity="0.85"/>
+      <stop offset="70%" stop-color="#e9cd7f" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#e9cd7f" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="hexClip">
+      <polygon points="256,104 401.5,188 401.5,356 256,440 110.5,356 110.5,188"/>
+    </clipPath>
+  </defs>
+
+  <!-- background -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+
+  <!-- giant d20 wireframe watermark -->
+  <g transform="translate(256,272) rotate(14) scale(2.35) translate(-256,-272)" opacity="0.055"
+     fill="none" stroke="#3fc3a6" stroke-width="2">
+    <polygon points="256,104 401.5,188 401.5,356 256,440 110.5,356 110.5,188"/>
+    <polygon points="256,210 184,334 328,334"/>
+    <path d="M256,104 L256,210 M110.5,188 L256,210 M401.5,188 L328,334 M401.5,356 L328,334 M110.5,356 L184,334 M256,440 L184,334"/>
+  </g>
+
+  <!-- fate thread behind the die -->
+  <path d="M 48,308 C 150,212 362,212 464,308" fill="none" stroke="url(#thread)" stroke-width="2.5"/>
+  <circle cx="48" cy="308" r="3.5" fill="#3fc3a6" opacity="0.85"/>
+  <circle cx="464" cy="308" r="3.5" fill="#e9cd7f" opacity="0.85"/>
+
+  <!-- under glow -->
+  <ellipse cx="256" cy="452" rx="168" ry="30" fill="url(#underglow)"/>
+
+  <!-- ===== the d20 ===== -->
+  <g stroke="#f7edd2" stroke-opacity="0.5" stroke-width="2" stroke-linejoin="round">
+    <polygon points="110.5,188 256,104 256,210" fill="#a5813a"/>
+    <polygon points="401.5,188 401.5,356 328,334" fill="#7a5a22"/>
+    <polygon points="256,440 110.5,356 184,334" fill="#5e4519"/>
+    <polygon points="256,210 256,104 401.5,188 328,334" fill="url(#qtop)"/>
+    <polygon points="184,334 256,210 110.5,188 110.5,356" fill="url(#qleft)"/>
+    <polygon points="328,334 184,334 256,440 401.5,356" fill="url(#qbottom)"/>
+    <polygon points="256,210 184,334 328,334" fill="url(#cface)"/>
+  </g>
+
+  <!-- inner face rim -->
+  <polygon points="256,210 184,334 328,334" fill="none" stroke="#0a1a15" stroke-opacity="0.65" stroke-width="3"/>
+
+  <!-- outer hexagon edge -->
+  <polygon points="256,104 401.5,188 401.5,356 256,440 110.5,356 110.5,188"
+           fill="none" stroke="#ead191" stroke-width="3.5" stroke-opacity="0.95" stroke-linejoin="round"/>
+
+  <!-- gloss / specular highlights -->
+  <g clip-path="url(#hexClip)">
+    <rect x="100" y="100" width="312" height="120" fill="url(#sheen)"/>
+    <ellipse cx="205" cy="175" rx="122" ry="56" fill="url(#spec)" transform="rotate(-18 205 175)"/>
+  </g>
+
+  <!-- the glyph -->
+  <text x="256" y="298" text-anchor="middle" dominant-baseline="central"
+        font-family="'Microsoft YaHei UI','Microsoft YaHei','Noto Sans SC',sans-serif"
+        font-size="104" font-weight="800" fill="url(#glyphGold)"
+        style="filter: drop-shadow(0 0 12px rgba(246,224,150,0.55)) drop-shadow(0 2px 2px rgba(0,0,0,0.45))">命</text>
+
+  <!-- sparkles -->
+  <g fill="#fdf6df">
+    <path d="M 402,112 C 404.2,124 406,125.8 418,128 C 406,130.2 404.2,132 402,144 C 399.8,132 398,130.2 386,128 C 398,125.8 399.8,124 402,112 Z" opacity="0.95"/>
+    <path d="M 430,158 C 431.2,164.4 432.2,165.4 438.6,166.6 C 432.2,167.8 431.2,168.8 430,175.2 C 428.8,168.8 427.8,167.8 421.4,166.6 C 427.8,165.4 428.8,164.4 430,158 Z" opacity="0.7"/>
+  </g>
+
+  <!-- corner pips -->
+  <g fill="#e9cd7f" opacity="0.35">
+    <circle cx="76" cy="76" r="5"/>
+    <circle cx="436" cy="76" r="5"/>
+    <circle cx="76" cy="436" r="5"/>
+    <circle cx="436" cy="436" r="5"/>
+  </g>
+
+  <!-- frame -->
+  <rect x="26" y="26" width="460" height="460" rx="100" fill="none"
+        stroke="url(#frameGrad)" stroke-width="2.5" opacity="0.9"/>
+  <rect x="36" y="36" width="440" height="440" rx="92" fill="none"
+        stroke="#e9cd7f" stroke-width="1" opacity="0.22"/>
+
+  <!-- glass gloss across the top of the badge -->
+  <path d="M 26,226 L 26,126 Q 26,26 126,26 L 386,26 Q 486,26 486,126 L 486,226 Z" fill="url(#glass)"/>
+  <path d="M 78,68 Q 256,18 434,68" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1.5"/>
+</svg>

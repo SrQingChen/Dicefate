@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "AAA",
+  "ASG",
+  " A "
+ ],
+ "key": {
+  "A": "minecraft:amethyst_shard",
+  "S": "dicefate:fate_core",
+  "G": "minecraft:gold_ingot"
+ },
+ "result": {
+  "id": "dicefate:fate_shield_mithril",
+  "count": 1
+ }
+}

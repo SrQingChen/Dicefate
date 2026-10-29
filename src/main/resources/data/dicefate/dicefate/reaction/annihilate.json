@@ -1,0 +1,11 @@
+{
+  "id": "dicefate:annihilate",
+  "elements": [
+    "radiant",
+    "umbral"
+  ],
+  "effect": "nullify_tie",
+  "value": 0.0,
+  "bonus_damage": 0.0,
+  "cooldown": 300
+}

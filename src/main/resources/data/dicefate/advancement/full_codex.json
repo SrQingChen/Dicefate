@@ -1,0 +1,20 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:die_starlight_d20"
+  },
+  "title": {
+   "translate": "advancement.dicefate.full_codex.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.full_codex.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:nullface",
+ "criteria": {
+  "granted": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

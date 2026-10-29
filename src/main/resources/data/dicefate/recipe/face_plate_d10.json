@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "ABA",
+  "BDB",
+  "ABA"
+ ],
+ "key": {
+  "A": "minecraft:gold_ingot",
+  "B": "minecraft:diamond",
+  "D": "dicefate:fate_sand"
+ },
+ "result": {
+  "id": "dicefate:face_plate_d10",
+  "count": 1
+ }
+}

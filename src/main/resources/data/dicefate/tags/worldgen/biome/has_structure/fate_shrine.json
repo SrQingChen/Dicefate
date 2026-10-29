@@ -1,0 +1,11 @@
+{
+ "replace": false,
+ "values": [
+  "minecraft:forest",
+  "minecraft:taiga",
+  "minecraft:old_growth_pine_taiga",
+  "minecraft:jagged_peaks",
+  "minecraft:stony_peaks",
+  "minecraft:meadow"
+ ]
+}

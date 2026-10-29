@@ -1,0 +1,29 @@
+{
+ "id": "dicefate:boss_molten_die_king",
+ "entity": "dicefate:molten_die_king",
+ "tier": 3,
+ "rank": "boss",
+ "slots": [
+  {
+   "face": 10,
+   "element": "ember"
+  },
+  {
+   "face": 10,
+   "element": "ember"
+  },
+  {
+   "face": 12,
+   "element": "ember"
+  },
+  {
+   "face": 12,
+   "element": "ember"
+  },
+  {
+   "face": 12,
+   "element": "ember"
+  }
+ ],
+ "stance": "backwater"
+}

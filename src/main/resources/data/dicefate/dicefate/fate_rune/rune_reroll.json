@@ -1,0 +1,9 @@
+{
+  "id": "dicefate:rune_reroll",
+  "scope": "die",
+  "effect": "reroll_once",
+  "value": 0.1,
+  "consumed": true,
+  "cost_sand": 60,
+  "offering": "dicefate:offering_core"
+}

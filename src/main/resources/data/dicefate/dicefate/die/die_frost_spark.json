@@ -1,0 +1,8 @@
+{
+  "id": "dicefate:die_frost_spark",
+  "face": 8,
+  "kind": "element",
+  "material": "elemental",
+  "rarity": "uncommon",
+  "element": "frost"
+}

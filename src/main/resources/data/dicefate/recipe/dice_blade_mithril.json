@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "A",
+  "A",
+  "S"
+ ],
+ "key": {
+  "A": "minecraft:amethyst_shard",
+  "S": "dicefate:fate_core"
+ },
+ "result": {
+  "id": "dicefate:dice_blade_mithril",
+  "count": 1
+ }
+}

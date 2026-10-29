@@ -1,0 +1,9 @@
+{
+  "id": "dicefate:rune_hunt",
+  "scope": "player",
+  "effect": "kill_heal",
+  "value": 2,
+  "consumed": false,
+  "cost_sand": 40,
+  "offering": "dicefate:offering_bone"
+}

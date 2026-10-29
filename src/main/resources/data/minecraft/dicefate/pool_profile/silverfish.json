@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:silverfish",
+  "entity": "minecraft:silverfish",
+  "tier": 0,
+  "rank": "normal",
+  "slots": [
+    {
+      "face": 4
+    }
+  ],
+  "stance": "balanced",
+  "drops": [
+    {
+      "item": "fate_dust",
+      "min": 1,
+      "max": 1,
+      "chance": 0.7
+    }
+  ]
+}

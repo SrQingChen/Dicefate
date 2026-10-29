@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "SSS",
+  "SCS",
+  "SSS"
+ ],
+ "key": {
+  "S": "dicefate:fate_sand",
+  "C": "dicefate:fate_core"
+ },
+ "result": {
+  "id": "dicefate:respec_stone",
+  "count": 1
+ }
+}

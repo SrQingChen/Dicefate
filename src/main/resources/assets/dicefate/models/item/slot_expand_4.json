@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:item/generated",
+ "textures": {
+  "layer0": "dicefate:item/slot_expand_4"
+ }
+}

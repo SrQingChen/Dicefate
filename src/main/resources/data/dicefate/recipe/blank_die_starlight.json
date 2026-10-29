@@ -1,0 +1,20 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "EAD",
+  "ASG",
+  "DAE"
+ ],
+ "key": {
+  "E": "minecraft:ender_pearl",
+  "A": "minecraft:amethyst_shard",
+  "D": "dicefate:starshard",
+  "G": "dicefate:fate_sand",
+  "S": "minecraft:nether_star"
+ },
+ "result": {
+  "id": "dicefate:blank_die_starlight",
+  "count": 1
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:die_bone_d6"
+  },
+  "title": {
+   "translate": "advancement.dicefate.root.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.root.desc"
+  },
+  "frame": "task",
+  "background": "dicefate:textures/gui/advancement_background.png"
+ },
+ "parent": null,
+ "criteria": {
+  "has_die": {
+   "trigger": "minecraft:inventory_changed",
+   "conditions": {
+    "items": [
+     {
+      "items": "#dicefate:dice"
+     }
+    ]
+   }
+  }
+ }
+}

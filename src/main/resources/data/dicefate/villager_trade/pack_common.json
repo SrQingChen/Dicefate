@@ -1,0 +1,9 @@
+{
+  "wants": {
+    "id": "dicefate:fate_sand",
+    "count": 40
+  },
+  "gives": "dicefate:pack_common",
+  "max_uses": 3,
+  "xp": 1
+}

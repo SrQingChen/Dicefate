@@ -1,0 +1,17 @@
+{
+  "id": "dicefate:pack_fate_minor",
+  "duration": 3,
+  "mode": "fate",
+  "co_roll": 0.5,
+  "slots": [
+    {
+      "face": 6
+    },
+    {
+      "face": 8
+    },
+    {
+      "face": 8
+    }
+  ]
+}

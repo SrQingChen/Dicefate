@@ -1,0 +1,9 @@
+{
+  "wants": {
+    "id": "dicefate:fate_sand",
+    "count": 25
+  },
+  "gives": "dicefate:appraisal_scroll",
+  "max_uses": 5,
+  "xp": 1
+}

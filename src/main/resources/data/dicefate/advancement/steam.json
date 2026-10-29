@@ -1,0 +1,20 @@
+{
+ "display": {
+  "icon": {
+   "id": "dicefate:element_essence_ember"
+  },
+  "title": {
+   "translate": "advancement.dicefate.steam.title"
+  },
+  "description": {
+   "translate": "advancement.dicefate.steam.desc"
+  },
+  "frame": "task"
+ },
+ "parent": "dicefate:expand_3",
+ "criteria": {
+  "granted": {
+   "trigger": "minecraft:impossible"
+  }
+ }
+}

@@ -1,0 +1,7 @@
+{
+  "id": "dicefate:die_iron_d10",
+  "face": 10,
+  "kind": "basic",
+  "material": "iron",
+  "rarity": "rare"
+}

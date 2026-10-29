@@ -1,0 +1,27 @@
+{
+ "id": "dicefate:boss_nullface",
+ "entity": "dicefate:nullface",
+ "tier": 5,
+ "rank": "boss",
+ "slots": [
+  {
+   "face": 12
+  },
+  {
+   "face": 12
+  },
+  {
+   "face": 12
+  },
+  {
+   "face": 12
+  },
+  {
+   "face": 20
+  },
+  {
+   "face": 20
+  }
+ ],
+ "stance": "balanced"
+}
